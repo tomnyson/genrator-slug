@@ -6,7 +6,12 @@ this is func helper create slug from string support multi languages
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to installgenratorSlug.
 
 ```bash
-yarn install genrator-slug
+npm install genrator-slug
+yarn add genrator-slug
+```
+```bash
+npm run test
+yarn test
 ```
 
 ## Usage
