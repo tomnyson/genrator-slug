@@ -1,6 +1,6 @@
 {
   "name": "generator-slug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generator slug ",
   "main": "index.js",
   "repository": {
@@ -8,12 +8,15 @@
     "url": "https://github.com/tomnyson/genrator-slug"
   },
   "scripts": {
-    "test": "npm run test"
+    "test": "jest"
   },
   "keywords": [
     "generator",
     "slug"
   ],
   "author": "tomnyson",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
 }

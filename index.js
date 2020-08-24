@@ -1,4 +1,4 @@
-function generatorSlug (length) {
+function generatorId (length) {
   let result = '';
   const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   const charactersLength = characters.length;
@@ -8,7 +8,7 @@ function generatorSlug (length) {
   return result;
 }
 
-generatorSlug (value, isUnique= false, range=6) {
+function generatorSlug (value, isUnique= false, range=6) {
   let str = value.replace(/^\s+|\s+$/g, ''); // trim
   str = str.toLowerCase();
   const from = 'àáäâèéëêìíïîòóöôùúüûñç·/_,:;';
@@ -22,7 +22,7 @@ generatorSlug (value, isUnique= false, range=6) {
     .replace(/\s+/g, '-')
     .replace(/-+/g, '-');
   if(isUnique == true) {
-    str = str + '+' + generatorSlug(range)
+    str = str + '+' + generatorId(range)
   }
   return str;
 }
