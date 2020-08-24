@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "generator slug ",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomnyson/genrator-slug"
+  },
   "scripts": {
     "test": "npm run test"
   },
