@@ -1,0 +1,15 @@
+{
+  "name": "generator-slug",
+  "version": "1.0.0",
+  "description": "generator slug ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "generator",
+    "slug"
+  ],
+  "author": "tomnyson",
+  "license": "ISC"
+}
